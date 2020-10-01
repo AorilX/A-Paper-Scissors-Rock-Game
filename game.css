@@ -1,0 +1,50 @@
+body {background-color: #DAF7A6}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left:25%; 
+   margin-right:25%;
+}
+
+td, th {
+  border: 1px solid #1ED3CF;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left : 40px;
+}
+
+tr:nth-child(odd) {
+  background-color: #F5B1FB;
+  font-family: Comic Sans MS, Comic ;
+}
+
+tr:nth-child(even) {
+  background-color: #A1DFF9;
+  font-family: Comic Sans MS, Comic ;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	color:#FB97EC;
+	font-weight: bold;
+	text-align:center;
+}
+
+p {		font-size: 24px;
+		font-family: Comic Sans MS, Comic ;
+		color: #C171EC;
+		font-weight: bold;
+		padding-left: 500px;
+  }
+
+#yourChoice, #cChoice1 {
+	text-align: center;
+}
+
+
+
+	

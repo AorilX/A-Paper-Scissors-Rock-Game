@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+				
+		<link rel="stylesheet" href="game.css">
+		<script language="JavaScript" src="game.js">   
+				
+		</script>
+		<title>Paper Scissors Rock!!</title>
+		
+	</head>
+
+	<body>
+
+		<table>
+		  <tr>
+		    <th>Your Selection:</th>
+		    <th></th>
+		    <th>Computer Selection</th>
+		  </tr>
+
+		  <tr>
+		    <td>
+			    <form>
+				  <input type="radio" id="Paper" name="userChoice" value="Paper">
+				  <label for = "Paper">Paper</label><br>
+				  <input type="radio" id="Scissors" name="userChoice" value="Scissors">
+				  <label for ="Scissors">Scissors</label><br>
+				  <input type="radio" id="Rock" name="userChoice" value="Rock">
+				  <label for ="Rock">Rock</label>	 				 
+				</form>
+
+		    </td>
+		    <td>
+		    	<form>
+			  		<input type="button" value="Go!" onclick="play()">
+				</form>
+		    </td>
+		    <td id="cChoice"></td>
+		  </tr>
+
+		  <tr>
+		    <td>You Selected:</td>
+		    <td id = "yourChoice" colspan="2"> </td>
+		  </tr>
+
+		  <tr>
+		    <td>Computer Random Generated:</td>
+		    <td id = "cChoice1" colspan="2"> </td>
+		  </tr>
+
+		<p id = "text_2">   </p>
+		<p id = "text_3">   </p> 
+		<p id = "text_4">   </p> 
+		<p id = "text_5">   </p>
+
+			
+
+	</body>
+
+</html>
+	
+	
